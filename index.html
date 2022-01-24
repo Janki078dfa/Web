@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shoe !t</title>
+    <link rel="stylesheet" href="css/_main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+</head>
+<body>
+<header>
+    <section class="section-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <ul class="header-wrapper__menu t16">
+                    <li><a href="index.html"><img src="img/home.png" alt="Home"></a></li>
+                    <li><a href="store.html"><img src="img/shopping-bag.png" alt="Store"></a></li>
+                    <li><a href="location.html"><img src="img/location.png" alt="About us"></a></li>
+                    <li><a href="contact.html"><img src="img/mail.png" alt="Contact us"></a></li>
+                    <li><a href="login.html"><img src="img/login.png" alt="LogIn"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="container-phone">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul style="display: flex; flex-flow: column; padding-left: 50px" id="menu" class="roboto">
+                    <a href="#">
+                        <li style="margin-right: 15px">Home</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 15px">About</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 15px">Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<section class="section-home">
+    <div class="container">
+        <h1 class="roboto center t46">Featured Shoes</h1>
+        <div class="section-home-slider">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img1.jpg" alt="1"></a></div>
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img2.jpg" alt="2"></a></div>
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img3.jpg" alt="3"></a></div>
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img4.jpg" alt="4"></a></div>
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img5.jpg" alt="5"></a></div>
+                    <div class="swiper-slide"><a href="store.html"><img src="img/slider_img6.jpg" alt="6"></a></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="section-offers">
+            <div class="section-offers-wrapper roboto">
+                <h1 class="t60">Repeat with me!</h1>
+                <h2 class="t46">I deserve a new pair of shoes :)</h2>
+                <a class="section-offers-button t22" style="color: white" href="store.html">Click here to shop</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="site-footer roboto">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <h6>Quick Links</h6>
+                <ul class="footer-links">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Store</a></li>
+                    <li><a href="">Legal</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by
+                    <a href="#">Shoe !t</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
+
+<script type="module">
+    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+    new Swiper('.swiper', {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        autoplay: {
+            delay: 1000,
+        },
+        breakpoints: {
+            810: {
+                slidesPerView: 3,
+                spaceBetween: 30,
+            },
+            200: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+            }
+        },
+    });
+</script>

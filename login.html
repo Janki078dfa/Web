@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="css/_main.css">
+    <link rel="stylesheet" href="css/_login.css">
+</head>
+<body>
+<header>
+    <section class="section-header">
+        <div class="container">
+            <div class="header-wrapper">
+                <ul class="header-wrapper__menu t16">
+                    <li><a href="index.html"><img src="img/home.png" alt="Home"></a></li>
+                    <li><a href="store.html"><img src="img/shopping-bag.png" alt="Store"></a></li>
+                    <li><a href="location.html"><img src="img/location.png" alt="About us"></a></li>
+                    <li><a href="contact.html"><img src="img/mail.png" alt="Contact us"></a></li>
+                    <li><a href="login.html"><img src="img/login.png" alt="LogIn"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="container-phone">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox"/>
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul style="display: flex; flex-flow: column; padding-left: 50px" id="menu" class="roboto">
+                    <a href="#">
+                        <li style="margin-right: 15px">Home</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 15px">About</li>
+                    </a>
+                    <a href="#">
+                        <li style="margin-right: 15px">Info</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<section class="ftco-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+                <h2 class="heading-section">Login</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-5">
+                <div class="wrap">
+                    <div class="img" style="background-image: url(img/slider_img1.jpg);"></div>
+                    <div class="login-wrap p-4 p-md-5">
+                        <div class="d-flex">
+                            <div class="w-100">
+                                <h3 class="mb-4">Sign In</h3>
+                            </div>
+                            <div class="w-100">
+                            </div>
+                        </div>
+                        <form action="#" class="signin-form">
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" required>
+                                <label class="form-control-placeholder">Username</label>
+                            </div>
+                            <div class="form-group">
+                                <input id="password-field" type="password" class="form-control" required>
+                                <label class="form-control-placeholder">Password</label>
+                                <span toggle="#password-field"
+                                      class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                            </div>
+                            <div class="form-group">
+                                <a href="backoffice.html" class="form-control btn btn-primary rounded submit px-3">Sign In</a>
+                            </div>
+                            <div class="form-group d-md-flex">
+                                <div class="w-50 text-left">
+                                    <label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+                                        <input type="checkbox" checked>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                <div class="w-50 text-md-right">
+                                    <a href="#">Forgot Password</a>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

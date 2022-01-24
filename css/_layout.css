@@ -1,0 +1,29 @@
+/*----------------------
+CONTAINERS
+----------------------*/
+
+.container {
+    margin: auto;
+}
+
+.container-phone {
+    width: 98vw;
+    margin: auto;
+}
+
+.pd-top {
+    padding-top: 80px;
+}
+
+.center {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+
+
+

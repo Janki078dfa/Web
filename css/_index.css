@@ -1,0 +1,72 @@
+.swiper {
+    margin-top: 50px;
+    width: 100%;
+    height: 30vw;
+}
+
+.swiper-wrapper {
+    width: 30vw;
+    height: 30vw;
+}
+
+.swiper-slide {
+    width: 30vw;
+    height: 30vw;
+}
+
+.swiper-slide img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.section-offers {
+    margin-top: 3.6vw;
+    width: 100%;
+    height: 600px;
+    background-color: var(--dark);
+    margin-bottom: 100px;
+}
+
+.section-offers-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100%;
+}
+
+.section-offers-wrapper h1 {
+    color: var(--orange);
+    margin-bottom: 20px;
+}
+
+.section-offers-wrapper h2 {
+    color: var(--white);
+}
+
+.section-offers-button {
+    margin-top: 80px;
+    padding: 20px;
+    border: 2px solid var(--white);
+}
+
+.section-offers-button:hover {
+    background-color: var(--white);
+    color: var(--dark) !important;
+}
+
+body {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
